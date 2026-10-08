@@ -40,14 +40,16 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
-    botaoJogarNovamente.addEventListener("click , jogaNovamente(")
+caixaPerguntas.textContent = "Em 2049...";
+textoResultado.textContent = historiaFinal;
+caixaAlternativas.textContent = "";
+botaoJogarNovamente.addEventListener("click", jogaNovamente());
+
 }
 
-function JogarNovamente
-      atual = 0;
-      historia final = "";
-      mostraPergunta = ()
+function jogaNovamente(){
+    atual = 0;
+    historiaFinal = "";
+    mostraPergunta();
+}
 mostraPergunta();
